@@ -1,0 +1,42 @@
+
+/*
+ID: imehedi2
+LANG: C++
+TASK: milk2
+*/
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+void solve(){
+    int n;
+    cin>>n;
+    vector<vector<int>> v;
+    while(n--){
+        int m,n;
+        cin>>m>>n;
+        v.push_back({m,n});
+    }
+    sort(v.begin(), v.end());
+    vector<vecotr<int>> v2; 
+    
+    vector<int> first = v[0];
+    for(int i=1; i<v.size(); i++){
+        if(v[i][0] < first[1]){
+            if(v[i][1]>first[1]) {
+
+            }k
+        }
+    }
+
+
+}
+
+int main(){
+   // freopen("milk2.in", "r", stdin);
+   // freopen("milk2.out", "w", stdout);
+    solve(); 
+    return 0;
+}
+
