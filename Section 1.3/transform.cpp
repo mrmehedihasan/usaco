@@ -3,7 +3,7 @@
 ID: imehedi2
 LANG: C++
 TASK: transform
-*/
+ */
 
 #include <bits/stdc++.h>
 #define DEBUG 0
@@ -81,7 +81,7 @@ void solve(){
 
     }
     //end input
-    
+
     if(DEBUG){
         for(auto it: a_mat){
             for(auto i: it) {
